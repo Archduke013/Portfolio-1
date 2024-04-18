@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    margin-right: 10px; /* Adjusted margin for mobile */
+}
+
+ul.topnav li {
+    float: right;
+}
+
+ul.topnav li.right a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px; /* Adjusted padding for mobile */
+    text-decoration: none;
+    font-size: 16px; /* Adjusted font size for mobile */
+    margin-right: 10px;
+}
+
+ul.topnav li a.active {
+    background: #11998e;
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+    background: linear-gradient(to right, #38ef7d, #11998e);
+}
+
+ul.topnav li.left {
+    float: left;
+    margin-top: 23px; /* Adjusted margin for mobile */
+    margin-left: 30px; /* Adjusted margin for mobile */
+    color: black;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul.topnav li.left a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px; /* Adjusted font size for mobile */
+}
+
+.card {
+    color: black;
+    width: 90%; /* Adjusted width for mobile */
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto; /* Centering horizontally */
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.card h1 {
+    font-size: 1rem; /* Adjusted font size for mobile */
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.card h1 {
+    font-size: 55px;
+}
+
+.card-intro {
+    background-color: #443f3f;
+    color: white;
+    padding: 20px;
+    
+    margin-top: 10px;
+    border-radius: 10px;
+   
+}
+
+.card-intro p {
+    color: white;
+}
+
+.card-skills {
+  
+    color: black;
+    height: 400px;
+    text-align: center;
+    padding: 10px 5px;
+ width: 400px;
+    margin-top: 20px;
+   margin-right: 0;
+    height: auto;
+float: right;
+    
+    box-shadow: 3px 3px inset,  3px 3px;
+
+} 
+
+.card-skills-2 {
+  
+    color: black;
+    height: 400px;
+    text-align: center;
+    padding: 10px 5px;
+ width: 400px;
+    margin-top: 20px;
+   margin-right: 0;
+    height: auto;
+float: right;
+    
+    box-shadow: 3px 3px inset,  3px 3px;
+
+} 
+
+.card2 {
+    color: white;
+    width: 90%; /* Adjusted width for mobile */
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto; /* Centering horizontally */
+    border-radius: 10px;
+}
+
+
+.about {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0;
+    padding: 10px;
+    padding-top: 80px;
+}
+
+img {
+    max-height: 500px; /* Adjusted max-height for mobile */
+    border-radius: 10px;
+    max-width: 100%;
+    border-style: solid;
+    border-color: #726c6c;
+}
+
+a {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    
+    color: black;
+}
+
+.works {
+    margin-top: 10px;
+    padding: 10px;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.work1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.work2 {
+    display: flex;
+    justify-content: center;
+   
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+
+.work1-detail{
+    width: 100%;
+    
+    
+    
+}
+.work1-slideshow{
+    width: 100%;
+}
+
+.work2-detail{
+    width: 100%;
+   
+}
+.work2-slideshow{
+    width: 100%;
+}
